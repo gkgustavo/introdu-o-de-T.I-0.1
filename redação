@@ -1,0 +1,8 @@
+Para entender qual é o impacto das ferramentas de controle de versão, é necessário saber o que elas são. O controle de versão é uma prática de rastrear e gerenciar as alterações em um código de software, já os sistemas de controle de versão são ferramentas de software que ajudam as equipes de software a alterar, corrigir e atualizar um código-fonte ao longo do tempo.
+Antigamente os desenvolvedores utilizavam sistema como CVS e SVN, os quais tinham limitações por serem centralizados em um único servidor e por conta disso se o servidor central falhar ou cair, os desenvolvedores não poderiam trabalhar, além de que para corrigir ou atualizar um código eles teriam que se conectar para baixar o código.
+Com a chegada do Git as limitações anteriores foram extintos, por ele criar cópia para desenvolvedor sem alterar o original, o que permite que eles cometam e consertem erros sem atrapalhar seus colegas e essa ferramenta mostra todo o histórico de alteração que já ocorreram. Por sua versabilidade se tornou indispensável como instrumento de trabalho, com isso surgiu o Gitflow que seria como uma ordem de organização ou um padrão a ser seguido para que os projetos feitos no Git sejam feitos de forma mais eficiente no qual se divide em 5 ramos distintos.
+Master: onde fica o código de produção.
+Develop: área onde é desenvolvida novas funcionalidades.
+Realese: é quando o código estiver quase pronto para ser lançado.
+Hotfix: onde se faz correções rápidas
+com essa tecnologia o tempo de produção foi otimizado, facilitando e melhorando o desenvolvimento e atualizações de códigos.
